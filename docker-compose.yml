@@ -23,7 +23,7 @@ services:
 
   mysql:
     image: mysql:5.7
-    container_name: drupal-mysql
+    container_name: drupal-mysql-thebiglens
     environment:
       MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
       MYSQL_DATABASE: drupal
